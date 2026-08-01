@@ -112,7 +112,7 @@ const Timeline = () => {
       className="timeline"
       ref={(el) => {
         // Combine both refs
-        revealRef.current = el
+        revealRef.current = el as HTMLDivElement | null
       }}
     >
       <div className="timeline__head">
