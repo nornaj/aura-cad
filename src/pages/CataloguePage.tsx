@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const categories = ['All', 'Rings', 'Bridal', 'Earrings', 'Pendants', 'Bracelets', 'Signets']
@@ -20,7 +21,10 @@ const products = [
 
 const CataloguePage = () => {
   const ref = useScrollReveal()
-  const [active, setActive] = useState('All')
+  const [searchParams] = useSearchParams()
+  const paramCategory = searchParams.get('category') || ''
+  const initial = categories.includes(paramCategory) ? paramCategory : 'All'
+  const [active, setActive] = useState(initial)
 
   const filtered = active === 'All' ? products : products.filter((p) => p.category === active)
 

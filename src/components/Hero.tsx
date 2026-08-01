@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const Hero = () => {
   return (
     <section className="hero">
@@ -52,22 +54,22 @@ const Hero = () => {
               felt in carats
             </div>
             <nav className="cats">
-              <a href="#">
+              <Link to="/catalogue?category=Rings">
                 <span>Rings</span>
                 <span>&#8594;</span>
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/catalogue?category=Earrings">
                 <span>Earrings</span>
                 <span>&#8594;</span>
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/catalogue?category=Pendants">
                 <span>Pendants</span>
                 <span>&#8594;</span>
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/catalogue?category=Bridal">
                 <span>Bridal sets</span>
                 <span>&#8594;</span>
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
