@@ -1145,7 +1145,7 @@ a{color:inherit;text-decoration:none}
 
   /* ── Home Hero clearance ── */
   .hero{padding-top:60px}
-
+  .render{display:none}
   /* ── Reduce spacing between ALL sections on mobile ── */
   .expect,.services,.reviews,.why,.bts,.catalogue,.request,
   .timeline,.reasons,.quote{padding-top:20px;padding-bottom:20px}
