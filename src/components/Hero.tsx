@@ -75,27 +75,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* ── FOOTER ── */}
-      <footer className="foot">
-        <div className="stats">
-          <div>
-            <b>1 240+</b>
-            <i>CAD models</i>
-          </div>
-          <div>
-            <b>0.02 mm</b>
-            <i>print tolerance</i>
-          </div>
-          <div>
-            <b>30+</b>
-            <i>studio designers</i>
-          </div>
-        </div>
-        <div className="foot__scroll">
-          <em></em>
-          <span>Scroll to explore the library</span>
-        </div>
-      </footer>
+
     </section>
   )
 }
