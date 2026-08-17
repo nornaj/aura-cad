@@ -163,7 +163,7 @@ a{color:inherit;text-decoration:none}
 .wordmark{
   position:relative;z-index:2;margin:0;
   font-family:'Bodoni Moda',serif;font-weight:400;
-  font-size:22vw;line-height:1;letter-spacing:0;color:rgba(42,38,32,.08);
+  font-size:22vw;line-height:1;letter-spacing:0;color:rgba(27,24,21,.20);
   display:flex;align-items:center;justify-content:center;
   gap:5vw;width:100%;padding:0 4px;
   
