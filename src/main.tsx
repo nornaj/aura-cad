@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import './index.css'
 import Layout from './components/Layout'
 import App from './App'
@@ -19,7 +19,8 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/catalogue" element={<CataloguePage />} />
+          <Route path="/portfolio" element={<CataloguePage />} />
+          <Route path="/catalogue" element={<Navigate to="/portfolio" replace />} />
           <Route path="/custom-cad" element={<CustomCad />} />
         </Route>
       </Routes>

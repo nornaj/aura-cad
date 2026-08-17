@@ -15,7 +15,7 @@ const timelineData = [
     year: '2021',
     title: 'The library goes public',
     description:
-      'Opened the catalogue to independent makers. Parametric sizing shipped, so one file covered a full size range.',
+      'Opened the portfolio to independent makers. Parametric sizing shipped, so one file covered a full size range.',
     tags: ['200 models', 'Parametric sizing'],
     flip: true,
     isNow: false,

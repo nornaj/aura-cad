@@ -39,7 +39,7 @@ const Services = () => {
           <div className="service__top"><span>03</span><em></em></div>
           <div className="service__body">
             <h3>Photoreal rendering</h3>
-            <p>Studio-lit stills and 360&#176; turntables for your store, catalogue and paid social.</p>
+            <p>Studio-lit stills and 360&#176; turntables for your store, portfolio and paid social.</p>
             <span className="service__meta">4K &#183; per angle &#8594;</span>
           </div>
         </a>

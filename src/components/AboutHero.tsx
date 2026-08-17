@@ -15,7 +15,7 @@ const AboutHero = () => {
 
         <div className="panel__copy">
           <h1>The studio<br />behind the<br />geometry</h1>
-          <p>We are thirty CAD designers who came out of jewellery benches, not render farms. Every model we author is measured to the stone and tested on a printer before it reaches a catalogue page.</p>
+          <p>We are thirty CAD designers who came out of jewellery benches, not render farms. Every model we author is measured to the stone and tested on a printer before it reaches a portfolio page.</p>
           <p className="is-strong">No mass output, no recycled meshes &#8212; each piece is built from scratch and detailed down to the last millimetre.</p>
         </div>
       </div>

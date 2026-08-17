@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const Expectations = () => {
@@ -13,7 +14,7 @@ const Expectations = () => {
         </div>
         <h2 data-reveal="up" data-reveal-delay="1">We meet your<br />expectations</h2>
         <p data-reveal="up" data-reveal-delay="2">
-          Every model in the catalogue is built to production standard:
+          Every model in the portfolio is built to production standard:
           watertight solids, correct metal thickness, stone seats measured to the
           cut. You get the working file, not a pretty picture.
         </p>
@@ -27,9 +28,9 @@ const Expectations = () => {
           <span>Stone charts</span>
           <span>Print-tested</span>
         </div>
-        <a href="#" className="btn-ghost" data-reveal="up" data-reveal-delay="5">
-          View the catalogue <span>&#8594;</span>
-        </a>
+        <Link to="/portfolio" className="btn-ghost" data-reveal="up" data-reveal-delay="5">
+          View the portfolio <span>&#8594;</span>
+        </Link>
       </div>
 
       {/* ── RIGHT: Showcase column ── */}

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const models = [
@@ -75,7 +76,7 @@ const Catalogue = () => {
           <div className="eyebrow" data-reveal="up"><em></em><span>07 &#8212; Featured collection</span></div>
           <h2 data-reveal="up" data-reveal-delay="1">Eight files,<br />ready to cast</h2>
         </div>
-        <a href="#" className="btn-outline" data-reveal="up" data-reveal-delay="2">All 1 240 models <span>&#8594;</span></a>
+        <Link to="/portfolio" className="btn-outline" data-reveal="up" data-reveal-delay="2">All 1 240 models <span>&#8594;</span></Link>
       </div>
 
       <div className="models">

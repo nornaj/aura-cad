@@ -54,19 +54,19 @@ const Hero = () => {
               felt in carats
             </div>
             <nav className="cats">
-              <Link to="/catalogue?category=Rings">
+              <Link to="/portfolio?category=Rings">
                 <span>Rings</span>
                 <span>&#8594;</span>
               </Link>
-              <Link to="/catalogue?category=Earrings">
+              <Link to="/portfolio?category=Earrings">
                 <span>Earrings</span>
                 <span>&#8594;</span>
               </Link>
-              <Link to="/catalogue?category=Pendants">
+              <Link to="/portfolio?category=Pendants">
                 <span>Pendants</span>
                 <span>&#8594;</span>
               </Link>
-              <Link to="/catalogue?category=Bridal">
+              <Link to="/portfolio?category=Bridal">
                 <span>Bridal sets</span>
                 <span>&#8594;</span>
               </Link>

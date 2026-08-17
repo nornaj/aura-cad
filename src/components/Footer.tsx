@@ -7,7 +7,7 @@ const Footer = () => {
           <p>3D jewellery CAD studio &#8212; production files, renders and bespoke modelling for makers worldwide.</p>
         </div>
         <div className="site-foot__col">
-          <b>Catalogue</b>
+          <b>Portfolio</b>
           <a href="#">Rings</a>
           <a href="#">Earrings</a>
           <a href="#">Pendants</a>
