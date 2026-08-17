@@ -37,24 +37,26 @@ const Expectations = () => {
       <div className="expect__showcase">
         <div className="ghost-word">Rings</div>
 
-        <div className="featured" data-reveal="scale">
-          <div className="featured__orbit"></div>
-          <img src="/gold-ring.webp" alt="Featured ring render" />
-        </div>
+        <div className="showcase__body">
+          <div className="featured" data-reveal="scale">
+            <div className="featured__orbit"></div>
+            <img src="/gold-ring.webp" alt="Featured ring render" />
+          </div>
 
-        <div className="cards">
-          <a href="#" className="card" data-reveal="up" data-reveal-delay="1">
-            <img src="/gold-ring.webp" alt="Earrings" />
-            <span>Earrings</span>
-          </a>
-          <a href="#" className="card" data-reveal="up" data-reveal-delay="2">
-            <img src="/gold-ring.webp" alt="Pendants" />
-            <span>Pendants</span>
-          </a>
-          <a href="#" className="card" data-reveal="up" data-reveal-delay="3">
-            <img src="/gold-ring.webp" alt="Brooches" />
-            <span>Brooches</span>
-          </a>
+          <div className="cards">
+            <a href="#" className="card" data-reveal="up" data-reveal-delay="1">
+              <img src="/gold-ring.webp" alt="Earrings" />
+              <span>Earrings</span>
+            </a>
+            <a href="#" className="card" data-reveal="up" data-reveal-delay="2">
+              <img src="/gold-ring.webp" alt="Pendants" />
+              <span>Pendants</span>
+            </a>
+            <a href="#" className="card" data-reveal="up" data-reveal-delay="3">
+              <img src="/gold-ring.webp" alt="Brooches" />
+              <span>Brooches</span>
+            </a>
+          </div>
         </div>
 
         <div className="formats" data-reveal="fade" data-reveal-delay="4">

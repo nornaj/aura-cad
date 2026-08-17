@@ -323,6 +323,10 @@ a{color:inherit;text-decoration:none}
   display:flex;flex-direction:column;align-items:center;
   gap:28px;background:#ffffff;
 }
+.showcase__body{
+  display:flex;flex-direction:column;align-items:center;
+  gap:28px;width:100%;
+}
 .ghost-word{
   position:absolute;right:20px;top:20px;
   font-family:'Bebas Neue',sans-serif;
@@ -855,18 +859,26 @@ a{color:inherit;text-decoration:none}
 
   /* Expectations */
   .expect{
-    background:linear-gradient(100deg,#1b1815 0%,#1b1815 46%,#ffffff 46%,#ffffff 100%);
-    display:grid;grid-template-columns:minmax(340px,46%) 1fr;
+    background:linear-gradient(100deg,#1b1815 0%,#1b1815 44%,#ffffff 44%,#ffffff 100%);
+    display:grid;grid-template-columns:minmax(340px,44%) 1fr;
   }
   .expect__copy{padding:6vh 3vw 6vh 32px}
   .expect__showcase{
-    padding:6vh 4vw 6vh 4vw;align-items:center;justify-content:center;background:transparent;
+    padding:6vh 32px 6vh 3vw;align-items:center;justify-content:center;background:transparent;
   }
-  .ghost-word{left:50%;transform:translateX(-50%);top:4vh}
-  .featured{width:100%;max-width:420px;height:min(38vh,380px);margin-top:2vh}
-  .cards{width:100%;max-width:500px;gap:14px}
-  .card img{height:70px}
-  .card span{font-size:10.5px}
+  .showcase__body{
+    display:flex;flex-direction:row;align-items:center;justify-content:space-between;
+    width:100%;gap:20px;
+  }
+  .ghost-word{left:40%;transform:translateX(-50%);top:4vh}
+  .featured{width:100%;max-width:360px;height:min(36vh,340px);margin:0 auto}
+  .cards{
+    display:flex;flex-direction:column;grid-template-columns:none;
+    width:125px;min-width:120px;gap:12px;
+  }
+  .card{padding:12px 10px;gap:8px}
+  .card img{height:54px}
+  .card span{font-size:10px}
 
   /* Services */
   .services{padding:10vh 32px 11vh}
@@ -952,13 +964,21 @@ a{color:inherit;text-decoration:none}
   .stats b{font-size:30px}
 
   /* Expectations */
-  .expect{grid-template-columns:minmax(420px,46%) 1fr}
-  .expect__copy{padding:6vh 4vw 6vh 40px;max-width:min(640px,38vw)}
-  .expect__showcase{padding:6vh 4vw 6vh 4vw;align-items:center;justify-content:center}
-  .ghost-word{left:50%;transform:translateX(-50%);top:5vh;font-size:clamp(70px,10vw,140px)}
-  .featured{width:100%;max-width:440px;height:min(40vh,400px);margin-top:2vh}
-  .cards{grid-template-columns:repeat(3,minmax(0,1fr));width:100%;max-width:540px;gap:16px}
-  .card img{height:78px}
+  .expect{grid-template-columns:minmax(420px,44%) 1fr}
+  .expect__copy{padding:6vh 4vw 6vh 40px;max-width:min(640px,36vw)}
+  .expect__showcase{padding:6vh 40px 6vh 3vw;align-items:center;justify-content:center}
+  .showcase__body{
+    display:flex;flex-direction:row;align-items:center;justify-content:space-between;
+    width:100%;max-width:720px;gap:32px;
+  }
+  .ghost-word{left:40%;transform:translateX(-50%);top:5vh;font-size:clamp(70px,10vw,140px)}
+  .featured{width:100%;max-width:420px;height:min(42vh,400px);margin:0 auto}
+  .cards{
+    display:flex;flex-direction:column;grid-template-columns:none;
+    width:145px;min-width:135px;gap:14px;
+  }
+  .card{padding:14px 12px;gap:10px}
+  .card img{height:68px}
   .card span{font-size:10.5px;letter-spacing:.16em}
 
   /* Services */
