@@ -1,7 +1,4 @@
-import { useState } from 'react'
 import { useScrollReveal } from '../hooks/useScrollReveal'
-
-const filters = ['All', 'Solitaire', 'Halo', 'Bands', 'Earrings', 'Signet']
 
 const models = [
   {
@@ -69,30 +66,16 @@ const models = [
 ]
 
 const Catalogue = () => {
-  const [activeFilter, setActiveFilter] = useState('All')
   const ref = useScrollReveal()
 
   return (
     <section className="catalogue" ref={ref}>
-<div className="catalogue__head">
+      <div className="catalogue__head">
         <div className="catalogue__headline">
           <div className="eyebrow" data-reveal="up"><em></em><span>07 &#8212; Featured collection</span></div>
           <h2 data-reveal="up" data-reveal-delay="1">Eight files,<br />ready to cast</h2>
         </div>
         <a href="#" className="btn-outline" data-reveal="up" data-reveal-delay="2">All 1 240 models <span>&#8594;</span></a>
-      </div>
-
-      <div className="filters" data-reveal="fade" data-reveal-delay="3">
-        {filters.map(f => (
-          <span
-            key={f}
-            className={f === activeFilter ? 'is-active' : ''}
-            onClick={() => setActiveFilter(f)}
-            style={{ cursor: 'pointer' }}
-          >
-            {f}
-          </span>
-        ))}
       </div>
 
       <div className="models">
