@@ -9,6 +9,7 @@ import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import CataloguePage from './pages/CataloguePage'
 import CustomCad from './pages/CustomCad'
+import SingleServicePage from './pages/SingleServicePage'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/catalogue" element={<Navigate to="/portfolio" replace />} />
           <Route path="/partnership" element={<CustomCad />} />
           <Route path="/custom-cad" element={<Navigate to="/partnership" replace />} />
+          <Route path="/service/:slug" element={<SingleServicePage />} />
         </Route>
       </Routes>
     </BrowserRouter>

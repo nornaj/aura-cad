@@ -8,84 +8,84 @@ const servicesList = [
     desc: 'Dedicated CAD design capacity, white-label collections, and priority turnaround for jewellery houses, studios, and independent makers worldwide.',
     meta: 'Dedicated Studio · Priority →',
     dark: true,
-    link: '/partnership',
+    link: '/service/partnership',
   },
   {
     num: '02',
     title: 'Rings',
     desc: 'Solitaires, halos, eternity bands, and signets — engineered for correct metal thickness, stone seating, and size range scalability.',
     meta: 'US 4–12 · Watertight →',
-    link: '/portfolio?category=Rings',
+    link: '/service/rings',
   },
   {
     num: '03',
     title: 'Zbrush Sculpting',
     desc: 'Organic bas-reliefs, heraldry, anatomical motifs, and complex freeform textures crafted with high-density digital sculpting.',
     meta: 'High-poly Mesh · STL / OBJ →',
-    link: '/partnership',
+    link: '/service/zbrush-sculpting',
   },
   {
     num: '04',
     title: 'Render',
     desc: 'Studio-lit 4K photoreal stills, 360° turntable animations, and material showcases for ecommerce, portfolios, and client pitch decks.',
     meta: '4K Ultra HD · 360° Turntable →',
-    link: '/partnership',
+    link: '/service/render',
   },
   {
     num: '05',
     title: 'Pendants',
     desc: 'Medallions, bezel-set drops, and complex locket assemblies designed with balanced bail placement and optimal weight distribution.',
     meta: 'Bail Integrated · Castable →',
-    link: '/portfolio?category=Pendants',
+    link: '/service/pendants',
   },
   {
     num: '06',
     title: 'Grillz',
     desc: 'Custom dental caps, open-face frames, and iced pavé grillz authored directly from intraoral 3D scans for an anatomical fit.',
     meta: '3D Scan Compatible · Dental CAD →',
-    link: '/partnership',
+    link: '/service/grillz',
   },
   {
     num: '07',
     title: 'Watches',
     desc: 'Case architecture, bezel assemblies, dial indices, and custom link bracelets authored for Swiss-standard mechanical tolerances.',
     meta: 'Case & Bezel Geometry →',
-    link: '/partnership',
+    link: '/service/watches',
   },
   {
     num: '08',
     title: 'Earrings',
     desc: 'Hoops, huggies, studs, and drop earrings calculated with hollowed weight reduction and secure post or clasp geometry.',
     meta: 'Hollow Weight Balance →',
-    link: '/portfolio?category=Earrings',
+    link: '/service/earrings',
   },
   {
     num: '09',
     title: 'Bracelets',
     desc: 'Tennis bracelets, hinged cuffs, and articulated link assemblies featuring concealed clasps and fluid movement joints.',
     meta: 'Articulated Links · Hidden Clasp →',
-    link: '/portfolio?category=Bracelets',
+    link: '/service/bracelets',
   },
   {
     num: '10',
     title: 'Eyewear',
     desc: 'Precious metal frames, temple hinges, bridge components, and rimless mountings crafted for ergonomic luxury and structural strength.',
     meta: 'Ergonomic Frames · Metal CAD →',
-    link: '/partnership',
+    link: '/service/eyewear',
   },
   {
     num: '11',
     title: 'Necklaces',
     desc: 'Statement collars, chain links, and multi-component gemstone strands authored with seamless flexibility and custom catches.',
     meta: 'Flexible Links · Custom Catches →',
-    link: '/partnership',
+    link: '/service/necklaces',
   },
   {
     num: '12',
     title: 'Product Design',
     desc: 'Luxury accessories, cufflinks, money clips, perfume hardware, and bespoke objets d’art authored from initial concept to tooling.',
     meta: 'Concept to Production →',
-    link: '/partnership',
+    link: '/service/product-design',
   },
 ]
 
@@ -93,7 +93,7 @@ const Services = () => {
   const ref = useScrollReveal()
 
   return (
-    <section className="services" ref={ref}>
+    <section id="services" className="services" ref={ref}>
       <div className="services__head">
         <div className="services__headline">
           <div className="eyebrow" data-reveal="up"><em></em><span>03 &#8212; Services</span></div>
