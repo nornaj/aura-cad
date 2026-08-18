@@ -940,7 +940,7 @@ a{color:inherit;text-decoration:none}
   }
   .expect__copy{padding:6vh 3vw 6vh 32px}
   .expect__showcase{
-    padding:6vh 0 6vh 3vw;align-items:center;justify-content:space-between;background:transparent;
+    padding:6vh 32px 6vh 3vw;align-items:center;justify-content:space-between;background:transparent;
   }
   .showcase__body{
     display:flex;flex-direction:row;align-items:center;justify-content:space-between;
@@ -1061,7 +1061,7 @@ a{color:inherit;text-decoration:none}
   /* Expectations */
   .expect{grid-template-columns:minmax(420px,44%) 1fr}
   .expect__copy{padding:6vh 4vw 6vh 40px;max-width:min(640px,36vw)}
-  .expect__showcase{padding:6vh 0 6vh 3vw;align-items:center;justify-content:space-between}
+  .expect__showcase{padding:6vh 40px 6vh 3vw;align-items:center;justify-content:space-between}
   .showcase__body{
     display:flex;flex-direction:row;align-items:center;justify-content:space-between;
     width:100%;max-width:100%;gap:32px;
