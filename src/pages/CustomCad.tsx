@@ -12,22 +12,21 @@ const CustomCad = () => {
 
         <div className="cc-hero__grid">
           <div className="cc-hero__copy" data-reveal="up">
-            {/* Eyebrow removed from hero per requirement */}
             <h1>
-              We model
+              Partnership
               <br />
-              what doesn&#8217;t
+              built on precision
               <br />
-              exist yet
+              geometry
             </h1>
             <p className="cc-hero__lead">
-              Send a sketch, a photo, or three words and a stone size. Our
-              designers author the piece from zero &#8212; measured to the cut,
-              print-tested before delivery, revised until the geometry is right.
+              We act as your extended bench — providing dedicated CAD capacity,
+              white-label collections, and priority turnaround for jewellery houses,
+              design studios, and master jewellers worldwide.
             </p>
             <div className="cc-hero__ctas">
               <Link to="/contact" className="cc-btn-solid">
-                Start a brief <span>&#8594;</span>
+                Start a partnership <span>&#8594;</span>
               </Link>
               <a href="#process" className="cc-btn-outline">
                 See the process
@@ -36,15 +35,15 @@ const CustomCad = () => {
             <div className="cc-hero__stats">
               <div>
                 <b>24 h</b>
-                <span>quote &amp; timeline</span>
+                <span>quote &amp; agreement</span>
               </div>
               <div>
                 <b>3&#8211;5 days</b>
-                <span>to first file</span>
+                <span>priority delivery</span>
               </div>
               <div>
-                <b>Unlimited</b>
-                <span>revisions to fit</span>
+                <b>Dedicated</b>
+                <span>lead CAD author</span>
               </div>
             </div>
           </div>
@@ -56,9 +55,9 @@ const CustomCad = () => {
           >
             <div className="cc-hero__panel">
               <div className="cc-hero__panel-orbit"></div>
-              <img src="" alt="Bespoke 3D model render" />
+              <img src="" alt="Partner studio 3D render" />
               <span className="cc-hero__tag">
-                Client commission &#183; 2026
+                Partner Studio Collection &#183; 2026
               </span>
             </div>
             <div className="cc-thumbs">
@@ -66,7 +65,7 @@ const CustomCad = () => {
                 <div className="cc-thumb__frame">
                   <img src="" alt="Sketch" />
                 </div>
-                <span>01 &#183; Sketch</span>
+                <span>01 &#183; Brief</span>
               </div>
               <div className="cc-thumb">
                 <div className="cc-thumb__frame">
@@ -86,8 +85,7 @@ const CustomCad = () => {
 
         <div className="cc-hero__foot">
           <span>
-            Rings &#183; Bridal sets &#183; Signets &#183; Earrings &#183;
-            Pendants &#183; Hardware
+            Bridal collections &#183; Bespoke lines &#183; White-label CAD &#183; Hardware &#183; Rapid prototyping
           </span>
           <span
             style={{
@@ -96,7 +94,7 @@ const CustomCad = () => {
               gap: '10px',
             }}
           >
-            <em></em> NDA on request
+            <em></em> Mutual NDA standard
           </span>
         </div>
       </section>
@@ -109,17 +107,16 @@ const CustomCad = () => {
           <div className="cc-sec-head__copy" style={{ maxWidth: '680px' }}>
             <div className="eyebrow">
               <em></em>
-              <span>How it works</span>
+              <span>01 &#8212; Partnership Model</span>
             </div>
             <h2 className="cc-h-dark">
-              Four steps,
+              Four steps to
               <br />
-              no guesswork
+              seamless collaboration
             </h2>
           </div>
           <p className="cc-process__intro">
-            You are never waiting on a black box &#8212; every stage ends with
-            something you can look at and sign off.
+            Collaboration built on complete transparency — every stage ends with clear deliverables you can review and sign off.
           </p>
         </div>
 
@@ -130,15 +127,14 @@ const CustomCad = () => {
               <em></em>
             </div>
             <div className="cc-step__media">
-              <img src="" alt="brief / sketch photo" />
+              <img src="" alt="brief / scope" />
             </div>
             <div className="cc-step__body">
-              <h3>Send the brief</h3>
+              <h3>Define the scope</h3>
               <p>
-                A sketch, a photo or a sentence. Add stone size, metal and
-                finger size if you know them &#8212; we ask if you don&#8217;t.
+                Share your collection brief, reference sketches, or recurring volume requirements. We assign your dedicated lead modeller.
               </p>
-              <span className="cc-step__gets">You get: written scope</span>
+              <span className="cc-step__gets">You get: written scope &amp; team allocation</span>
             </div>
           </div>
 
@@ -148,16 +144,15 @@ const CustomCad = () => {
               <em></em>
             </div>
             <div className="cc-step__media">
-              <img src="" alt="quote / spec sheet" />
+              <img src="" alt="quote / terms" />
             </div>
             <div className="cc-step__body">
-              <h3>Quote in 24 hours</h3>
+              <h3>Fixed terms in 24h</h3>
               <p>
-                A fixed price, a delivery date and the list of files you will
-                receive. Nothing starts before you approve it.
+                Transparent pricing, priority delivery dates, and white-label rights agreed upfront. Work starts immediately upon approval.
               </p>
               <span className="cc-step__gets">
-                You get: fixed price &amp; date
+                You get: fixed agreement &amp; schedule
               </span>
             </div>
           </div>
@@ -168,13 +163,12 @@ const CustomCad = () => {
               <em></em>
             </div>
             <div className="cc-step__media">
-              <img src="" alt="CAD viewport / review render" />
+              <img src="" alt="CAD viewport / review" />
             </div>
             <div className="cc-step__body">
               <h3>Model &amp; review</h3>
               <p>
-                We author the geometry and send turntable renders. Revisions
-                continue until proportions and fit are right.
+                We author the geometry and send 360° turntable renders. Revisions continue until proportions and fit match your brand standards.
               </p>
               <span className="cc-step__gets">
                 You get: 360&#176; review renders
@@ -195,10 +189,9 @@ const CustomCad = () => {
               <img src="" alt="printed / cast piece" />
             </div>
             <div className="cc-step__body">
-              <h3>Print-tested delivery</h3>
+              <h3>Production delivery</h3>
               <p>
-                Resin-printed at 0.02 mm, then delivered as watertight solids
-                with a stone chart and full commercial licence.
+                Resin-tested at 0.02 mm, delivered as watertight solids with stone charts and full white-label commercial licence.
               </p>
               <span className="cc-step__gets">
                 You get: .STL &#183; .3DM &#183; .OBJ
@@ -208,9 +201,9 @@ const CustomCad = () => {
         </div>
 
         <div className="cc-process__cta" data-reveal="up">
-          <p>Have a piece in mind? Step one takes about five minutes.</p>
+          <p>Ready to expand your CAD capacity? Setting up a partnership takes under five minutes.</p>
           <Link to="/contact" className="cc-btn-cream">
-            Start a brief <span>&#8594;</span>
+            Start a partnership <span>&#8594;</span>
           </Link>
         </div>
       </section>
@@ -221,17 +214,16 @@ const CustomCad = () => {
           <div className="cc-sec-head__copy" style={{ maxWidth: '700px' }}>
             <div className="eyebrow">
               <em></em>
-              <span>What we can model</span>
+              <span>02 &#8212; Partnership Scope</span>
             </div>
             <h2 className="cc-h-light">
-              If it can be
+              Full-spectrum CAD
               <br />
-              cast, we build it
+              capabilities
             </h2>
           </div>
           <p className="cc-disciplines__intro">
-            Six disciplines we work in daily. Anything outside them &#8212; ask;
-            the answer is usually yes.
+            Six core disciplines we author daily for partner brands. Custom requests outside these — our studio handles seamlessly.
           </p>
         </div>
 
@@ -331,13 +323,13 @@ const CustomCad = () => {
                 gap: '16px',
               }}
             >
-              <span className="cc-disc--dark__label">Also possible</span>
+              <span className="cc-disc--dark__label">Bespoke Requests</span>
               <div className="cc-disc--dark__title">
-                Something not on this list
+                Custom Partner Projects
               </div>
               <p>
                 Cufflinks, brooches, watch parts, objets &#8212; if it is small
-                metal and has to cast, send it over.
+                metal and has to cast, send it to our team.
               </p>
             </div>
             <div
@@ -353,7 +345,7 @@ const CustomCad = () => {
                 <span>Objets</span>
               </div>
               <Link to="/contact" className="cc-btn-cream cc-btn-cream--sm">
-                Ask us <span>&#8594;</span>
+                Inquire now <span>&#8594;</span>
               </Link>
             </div>
           </div>
@@ -366,17 +358,16 @@ const CustomCad = () => {
           <div className="cc-sec-head__copy">
             <div className="eyebrow">
               <em></em>
-              <span>What you receive</span>
+              <span>03 &#8212; Partnership Deliverables</span>
             </div>
             <h2 className="cc-h-dark">
-              A folder, not
+              Complete assets,
               <br />
-              a promise
+              full exclusivity
             </h2>
           </div>
           <p className="cc-intro-dark">
-            Every commission ships with the same set of files, whatever the
-            piece. Nothing is an upsell.
+            Every partner project ships with production-ready assets and full white-label licensing.
           </p>
         </div>
 
@@ -398,7 +389,7 @@ const CustomCad = () => {
 
             <div className="cc-deliv" data-reveal="up" data-reveal-delay="2">
               <div className="cc-deliv__title">
-                <span>01</span>
+                <span>02</span>
                 <h3>Three formats</h3>
               </div>
               <div className="cc-deliv__body">
@@ -447,14 +438,13 @@ const CustomCad = () => {
             >
               <div className="cc-deliv__title">
                 <span>05</span>
-                <h3>Commercial licence</h3>
+                <h3>White-label exclusivity</h3>
               </div>
               <div className="cc-deliv__body">
                 <p>
-                  Cast and sell without limits. Exclusive rights transfer on
-                  white-label commissions, in writing.
+                  Cast and sell under your own brand without limits. Full commercial rights transfer on partner projects in writing.
                 </p>
-                <span className="cc-deliv__pill">Exclusivity available</span>
+                <span className="cc-deliv__pill">100% White-label</span>
               </div>
             </div>
           </div>
@@ -464,7 +454,7 @@ const CustomCad = () => {
               <img src="" alt="Delivered file set" />
             </div>
             <div className="cc-extras">
-              <span className="cc-extras__label">Also on request</span>
+              <span className="cc-extras__label">Partner Extras</span>
               <ul>
                 <li>
                   <em></em>
@@ -490,17 +480,16 @@ const CustomCad = () => {
           <div className="cc-sec-head__copy">
             <div className="eyebrow">
               <em></em>
-              <span>Before &amp; after</span>
+              <span>04 &#8212; Partnership Outcomes</span>
             </div>
             <h2 className="cc-h-light">
-              Napkin sketch
+              From partner vision
               <br />
-              to finished cast
+              to production cast
             </h2>
           </div>
           <p className="cc-intro-light">
-            Three recent commissions, shown exactly as they arrived and exactly
-            as they left.
+            Three partner collaborations, showing how we transform brand concepts into castable reality.
           </p>
         </div>
 
@@ -508,7 +497,7 @@ const CustomCad = () => {
           <div className="cc-case" data-reveal="up" data-reveal-delay="1">
             <div className="cc-case__shot">
               <img src="" alt="sketch" />
-              <span className="cc-chip">Before &#183; sketch</span>
+              <span className="cc-chip">Before &#183; concept</span>
             </div>
             <div className="cc-case__shot cc-case__shot--dark">
               <img src="" alt="Finished cast piece" />
@@ -525,11 +514,11 @@ const CustomCad = () => {
                 }}
               >
                 <span className="cc-case__label">
-                  Commission 01 &#183; Bridal
+                  Project 01 &#183; Bridal
                 </span>
                 <h3>Oval halo, cathedral shank</h3>
                 <p>
-                  Arrived as a biro sketch with one measurement. Rebuilt around
+                  Arrived as a concept sketch with target gem dimensions. Rebuilt around
                   a 1.5 ct oval with 34 pav&#233; seats cut to the girdle.
                 </p>
               </div>
@@ -561,7 +550,7 @@ const CustomCad = () => {
                 }}
               >
                 <span className="cc-case__label">
-                  Commission 02 &#183; Signet
+                  Project 02 &#183; Signet
                 </span>
                 <h3>Family crest, intaglio cut</h3>
                 <p>
@@ -597,11 +586,11 @@ const CustomCad = () => {
                 }}
               >
                 <span className="cc-case__label">
-                  Commission 03 &#183; Hardware
+                  Project 03 &#183; Hardware
                 </span>
                 <h3>Hinged cuff, hidden clasp</h3>
                 <p>
-                  Two sentences and a wrist measurement. Modelled with real
+                  Partner specification and wrist measurements. Modelled with real
                   clearances so the hinge moved straight out of casting.
                 </p>
               </div>
@@ -621,17 +610,17 @@ const CustomCad = () => {
           <div className="cc-sec-head__copy">
             <div className="eyebrow">
               <em></em>
-              <span>FAQ</span>
+              <span>05 &#8212; Partnership FAQ</span>
             </div>
             <h2 className="cc-h-light">
-              Asked before
+              Everything about
               <br />
-              you ask
+              partnering with AURA
             </h2>
           </div>
           <p className="cc-intro-light">
-            The questions that come up in almost every first email. Anything
-            else &#8212; just write.
+            The questions that come up in almost every partnership setup. Anything
+            else &#8212; reach out to our team.
           </p>
         </div>
 
@@ -640,35 +629,30 @@ const CustomCad = () => {
             <div className="cc-qa" data-reveal="up" data-reveal-delay="1">
               <div className="cc-qa__q">
                 <span>01</span>
-                <h3>Who owns the finished file?</h3>
+                <h3>Who owns the finished files?</h3>
               </div>
               <p>
-                You do, commercially &#8212; cast and sell without limits or
-                per-unit fees. We keep the right to show the render in our
-                portfolio unless you ask us not to.
+                Your brand owns 100% commercial rights &#8212; cast, scale, and sell without limits or per-unit fees.
               </p>
             </div>
 
             <div className="cc-qa" data-reveal="up" data-reveal-delay="2">
               <div className="cc-qa__q">
                 <span>02</span>
-                <h3>Can I get full exclusivity?</h3>
+                <h3>Can we get full exclusivity?</h3>
               </div>
               <p>
-                Yes. White-label commissions transfer all rights on delivery,
-                in writing, and the design never enters the public library.
+                Yes. All partner projects transfer full white-label exclusivity on delivery, in writing, and designs never enter public libraries.
               </p>
             </div>
 
             <div className="cc-qa" data-reveal="up" data-reveal-delay="3">
               <div className="cc-qa__q">
                 <span>03</span>
-                <h3>How many revisions do I get?</h3>
+                <h3>How many revisions do we get?</h3>
               </div>
               <p>
-                As many as the piece needs to fit. Revisions within the agreed
-                scope are included; a change of direction becomes a new quote
-                &#8212; we say so before starting.
+                As many as the piece needs to fit perfectly. Revisions within the agreed scope are included to guarantee bench precision.
               </p>
             </div>
 
@@ -682,8 +666,7 @@ const CustomCad = () => {
                 <h3>Will you sign an NDA?</h3>
               </div>
               <p>
-                Always, on request &#8212; before you send anything. Send
-                yours or use ours.
+                Always, on request &#8212; before you share any confidential designs. Send yours or use ours.
               </p>
             </div>
           </div>
@@ -695,33 +678,27 @@ const CustomCad = () => {
                 <h3>What if it fails a cast?</h3>
               </div>
               <p>
-                If the failure traces to our geometry, we fix and re-test the
-                file at no cost. Every piece is resin-printed at 0.02 mm
-                before delivery precisely so this stays rare.
+                If any failure traces to our geometry, we re-author and re-test the file at zero cost. Every file is resin-printed at 0.02 mm before delivery.
               </p>
             </div>
 
             <div className="cc-qa" data-reveal="up" data-reveal-delay="2">
               <div className="cc-qa__q">
                 <span>06</span>
-                <h3>Do you work with my software?</h3>
+                <h3>Do you integrate with our software?</h3>
               </div>
               <p>
-                We author in Rhino and Matrix and deliver .3DM, .STL and .OBJ,
-                so the file opens on any bench &#8212; and stays editable if
-                you model in-house.
+                We author in Rhino and Matrix and deliver .3DM, .STL and .OBJ, so files open cleanly on any bench and stay editable for your team.
               </p>
             </div>
 
             <div className="cc-qa" data-reveal="up" data-reveal-delay="3">
               <div className="cc-qa__q">
                 <span>07</span>
-                <h3>Can you print or cast it too?</h3>
+                <h3>Can you print or cast for us?</h3>
               </div>
               <p>
-                We print resin models and ship them to your bench. Casting we
-                leave to your caster &#8212; but we prepare sprues and
-                orientation for them.
+                We print high-detail resin models and ship them to your bench. Casting is handled by your preferred caster, with sprues pre-configured.
               </p>
             </div>
 
@@ -732,11 +709,10 @@ const CustomCad = () => {
             >
               <div className="cc-qa__q">
                 <span>08</span>
-                <h3>How do payments work?</h3>
+                <h3>How do partnership terms work?</h3>
               </div>
               <p>
-                Half on approval of the quote, half on delivery of the files.
-                Bank transfer or card, invoiced from Vienna.
+                Per-project billing or monthly retainer agreements. Invoiced transparently via bank transfer or card from Vienna.
               </p>
             </div>
           </div>
@@ -751,17 +727,15 @@ const CustomCad = () => {
           <div className="cc-cta__copy" data-reveal="up">
             <div className="eyebrow">
               <em></em>
-              <span>Start a brief</span>
+              <span>Start a partnership</span>
             </div>
             <h2>
-              Tell us what
+              Partner with
               <br />
-              to model
+              our studio
             </h2>
             <p className="cc-cta__lead">
-              Five minutes now, a fixed quote and a date back within one
-              working day. A designer reads every brief &#8212; not a form
-              robot.
+              Tell us about your brand, upcoming collection, or CAD volume. A senior designer will review and respond within 24 hours.
             </p>
 
             <div className="cc-promises">
@@ -775,7 +749,7 @@ const CustomCad = () => {
               </div>
               <div>
                 <b>&#8594;</b>
-                <span>NDA before you send anything</span>
+                <span>Mutual NDA standard</span>
               </div>
             </div>
 
@@ -792,8 +766,8 @@ const CustomCad = () => {
           >
             <div className="cc-brief__pair">
               <label>
-                Name
-                <input type="text" placeholder="Marta Keller" />
+                Name / Brand
+                <input type="text" placeholder="Marta Keller Studio" />
               </label>
               <label>
                 Email
@@ -802,40 +776,39 @@ const CustomCad = () => {
             </div>
             <div className="cc-brief__pair">
               <label>
-                Stone / size
-                <input type="text" placeholder="1.5 ct oval, US 6" />
+                Estimated Volume
+                <input type="text" placeholder="5-10 models / month" />
               </label>
               <label>
-                Deadline
-                <input type="text" placeholder="Mid-August" />
+                Timeline
+                <input type="text" placeholder="Immediate" />
               </label>
             </div>
 
             <div className="cc-brief__group">
-              <span>Piece type</span>
+              <span>Partnership type</span>
               <div className="cc-chips">
-                <span className="is-active">Ring</span>
-                <span>Bridal set</span>
-                <span>Signet</span>
-                <span>Earrings</span>
-                <span>Other</span>
+                <span className="is-active">Bespoke Line</span>
+                <span>Collection CAD</span>
+                <span>White-Label</span>
+                <span>Retainer</span>
               </div>
             </div>
 
             <label>
-              Brief
+              Partnership Inquiry
               <textarea
                 rows={5}
-                placeholder="Oval halo, 1.5 ct centre, US 6, yellow gold, cathedral shank."
+                placeholder="Share your studio requirements, collection concepts, or technical CAD needs..."
               ></textarea>
             </label>
 
             <div className="cc-brief__foot">
               <span className="cc-attach">
-                Attach sketch &#183; JPG, PDF, 3DM
+                Attach specs &#183; JPG, PDF, 3DM
               </span>
               <button type="submit" className="cc-send">
-                Send the brief <span>&#8594;</span>
+                Submit inquiry <span>&#8594;</span>
               </button>
             </div>
           </form>

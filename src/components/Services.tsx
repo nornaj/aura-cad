@@ -4,11 +4,11 @@ import { useScrollReveal } from '../hooks/useScrollReveal'
 const servicesList = [
   {
     num: '01',
-    title: 'Custom CAD',
-    desc: 'Bespoke 3D modelling from technical drawings, sketches, or physical samples — authored with exact stone seats and casting tolerances.',
-    meta: 'Precision CAD · 3–5 Days →',
+    title: 'Partnership',
+    desc: 'Dedicated CAD design capacity, white-label collections, and priority turnaround for jewellery houses, studios, and independent makers worldwide.',
+    meta: 'Dedicated Studio · Priority →',
     dark: true,
-    link: '/custom-cad',
+    link: '/partnership',
   },
   {
     num: '02',
@@ -22,14 +22,14 @@ const servicesList = [
     title: 'Zbrush Sculpting',
     desc: 'Organic bas-reliefs, heraldry, anatomical motifs, and complex freeform textures crafted with high-density digital sculpting.',
     meta: 'High-poly Mesh · STL / OBJ →',
-    link: '/custom-cad',
+    link: '/partnership',
   },
   {
     num: '04',
     title: 'Render',
     desc: 'Studio-lit 4K photoreal stills, 360° turntable animations, and material showcases for ecommerce, portfolios, and client pitch decks.',
     meta: '4K Ultra HD · 360° Turntable →',
-    link: '/custom-cad',
+    link: '/partnership',
   },
   {
     num: '05',
@@ -43,14 +43,14 @@ const servicesList = [
     title: 'Grillz',
     desc: 'Custom dental caps, open-face frames, and iced pavé grillz authored directly from intraoral 3D scans for an anatomical fit.',
     meta: '3D Scan Compatible · Dental CAD →',
-    link: '/custom-cad',
+    link: '/partnership',
   },
   {
     num: '07',
     title: 'Watches',
     desc: 'Case architecture, bezel assemblies, dial indices, and custom link bracelets authored for Swiss-standard mechanical tolerances.',
     meta: 'Case & Bezel Geometry →',
-    link: '/custom-cad',
+    link: '/partnership',
   },
   {
     num: '08',
@@ -71,21 +71,21 @@ const servicesList = [
     title: 'Eyewear',
     desc: 'Precious metal frames, temple hinges, bridge components, and rimless mountings crafted for ergonomic luxury and structural strength.',
     meta: 'Ergonomic Frames · Metal CAD →',
-    link: '/custom-cad',
+    link: '/partnership',
   },
   {
     num: '11',
     title: 'Necklaces',
     desc: 'Statement collars, chain links, and multi-component gemstone strands authored with seamless flexibility and custom catches.',
     meta: 'Flexible Links · Custom Catches →',
-    link: '/custom-cad',
+    link: '/partnership',
   },
   {
     num: '12',
     title: 'Product Design',
     desc: 'Luxury accessories, cufflinks, money clips, perfume hardware, and bespoke objets d’art authored from initial concept to tooling.',
     meta: 'Concept to Production →',
-    link: '/custom-cad',
+    link: '/partnership',
   },
 ]
 

@@ -21,7 +21,8 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<CataloguePage />} />
           <Route path="/catalogue" element={<Navigate to="/portfolio" replace />} />
-          <Route path="/custom-cad" element={<CustomCad />} />
+          <Route path="/partnership" element={<CustomCad />} />
+          <Route path="/custom-cad" element={<Navigate to="/partnership" replace />} />
         </Route>
       </Routes>
     </BrowserRouter>
