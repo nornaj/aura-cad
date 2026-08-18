@@ -1,5 +1,5 @@
 *{box-sizing:border-box}
-html,body{margin:0;padding:0;background:#ffffff;scrollbar-color:#1b1815 #ffffff}
+html,body{margin:0;padding:0;background:#ffffff;scrollbar-color:#1b1815 #ffffff;scroll-behavior:smooth}
 a{color:inherit;text-decoration:none}
 #root{min-height:100vh}
 

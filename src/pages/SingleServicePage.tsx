@@ -1,10 +1,11 @@
 import React from 'react'
-import { useParams, Link, Navigate } from 'react-router-dom'
+import { useParams, Link, Navigate, useNavigate } from 'react-router-dom'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 import { servicesData } from '../data/servicesData'
 
 const SingleServicePage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>()
+  const navigate = useNavigate()
   const ref = useScrollReveal()
 
   const service = slug ? servicesData[slug] : undefined
@@ -19,6 +20,11 @@ const SingleServicePage: React.FC = () => {
     .slice(0, 4)
     .map((s) => servicesData[s])
 
+  const handleServicesClick = (e: React.MouseEvent) => {
+    e.preventDefault()
+    navigate('/', { state: { scrollTo: 'services' } })
+  }
+
   return (
     <div ref={ref} className="sv-page">
       {/* ============ HERO ============ */}
@@ -29,7 +35,9 @@ const SingleServicePage: React.FC = () => {
           <div className="sv-crumbs" data-reveal="up">
             <Link to="/">Home</Link>
             <span>/</span>
-            <Link to="/#services">Services</Link>
+            <a href="/#services" onClick={handleServicesClick}>
+              Services
+            </a>
             <span>/</span>
             <b>{service.title}</b>
           </div>
