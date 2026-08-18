@@ -50,7 +50,6 @@ const servicesList = [
     title: 'Watches',
     desc: 'Case architecture, bezel assemblies, dial indices, and custom link bracelets authored for Swiss-standard mechanical tolerances.',
     meta: 'Case & Bezel Geometry →',
-    dark: true,
     link: '/custom-cad',
   },
   {
