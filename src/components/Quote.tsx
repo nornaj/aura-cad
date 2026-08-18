@@ -30,7 +30,7 @@ const Quote = () => {
           <div className="quote__info">
             <div className="quote__name">Marina Keller</div>
             <div className="quote__role">
-              Production Director · Keller Atelier, Vienna
+              Production Director · Keller Atelier
             </div>
           </div>
         </div>

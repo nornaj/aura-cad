@@ -35,35 +35,12 @@ const Contact = () => {
               </span>
               <span className="contact-row__arrow">&#8594;</span>
             </a>
-            <a href="tel:+4312345678" className="contact-row">
+            <div className="contact-row">
               <span className="contact-row__stack">
-                <span className="contact-row__label">Studio line</span>
-                <span className="contact-row__value">+43 1 234 5678</span>
+                <span className="contact-row__label">Studio Hours</span>
+                <span className="contact-row__value">Mon–Fri 09:00–18:00 CET</span>
               </span>
-              <span className="contact-row__arrow">&#8594;</span>
-            </a>
-            <div className="contact-places">
-              <div>
-                <span className="contact-row__label">Vienna</span>
-                <span>
-                  Gumpendorfer Stra&#223;e 14
-                  <br />
-                  1060 Wien, Austria
-                </span>
-              </div>
-              <div>
-                <span className="contact-row__label">Tbilisi</span>
-                <span>
-                  Kote Abkhazi 27
-                  <br />
-                  0105 Tbilisi, Georgia
-                </span>
-              </div>
             </div>
-          </div>
-
-          <div className="contact-studio">
-            <span className="contact-studio__cap">Vienna modelling room</span>
           </div>
         </div>
 

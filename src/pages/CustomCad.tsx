@@ -712,7 +712,7 @@ const CustomCad = () => {
                 <h3>How do partnership terms work?</h3>
               </div>
               <p>
-                Per-project billing or monthly retainer agreements. Invoiced transparently via bank transfer or card from Vienna.
+                Per-project billing or monthly retainer agreements. Invoiced transparently via bank transfer or card.
               </p>
             </div>
           </div>

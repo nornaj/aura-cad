@@ -5,7 +5,7 @@ const reviews = [
   {
     initials: 'MK',
     name: 'Marta Keller',
-    company: 'Keller Atelier, Vienna',
+    company: 'Keller Atelier',
     quote: '\u201CThe files print first try. We stopped budgeting for failed casts entirely.\u201D',
   },
   {

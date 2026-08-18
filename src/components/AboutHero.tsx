@@ -20,7 +20,7 @@ const AboutHero = () => {
         </div>
       </div>
 
-      <div className="est"><em></em><span>Est. 2014 &#183; Vienna &#183; Tbilisi</span></div>
+      <div className="est"><em></em><span>Est. 2014 &#183; Master Jewellery CAD</span></div>
 
       <div className="about-stats">
         <div className="about-stats__grid">

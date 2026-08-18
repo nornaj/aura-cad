@@ -6,7 +6,7 @@ const timelineData = [
     year: '2020',
     title: 'Two benches, one printer',
     description:
-      'Founded in Vienna by three bench jewellers who were tired of buying meshes that would not cast. First 40 models authored by hand.',
+      'Founded by three bench jewellers who were tired of buying meshes that would not cast. First 40 models authored by hand.',
     tags: ['40 models', '1 printer'],
     flip: false,
     isNow: false,
@@ -22,7 +22,7 @@ const timelineData = [
   },
   {
     year: '2022',
-    title: 'Tbilisi studio opens',
+    title: 'Second studio opens',
     description:
       'A second studio and eleven new designers. Bespoke modelling became a standing service with a 24-hour quote promise.',
     tags: ['11 designers', 'Bespoke service'],
