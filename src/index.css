@@ -13,6 +13,53 @@ a{color:inherit;text-decoration:none}
 ::selection{background:#d0d0d0;color:#1b1815}
 ::-moz-selection{background:#d0d0d0;color:#1b1815}
 
+/* ── GLOBAL HIGH-CONTRAST EYEBROWS ── */
+.eyebrow {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+  color: #1b1815 !important;
+}
+
+.eyebrow em {
+  display: inline-block !important;
+  width: 6px !important;
+  height: 6px !important;
+  background: #c9b48a !important;
+  transform: rotate(45deg) !important;
+  font-style: normal !important;
+}
+
+/* Dark section eyebrows override */
+.expect .eyebrow,
+.detail .eyebrow,
+.sv-detail .eyebrow,
+.custom-cad--dark .eyebrow,
+.bg-dark .eyebrow,
+.service--dark .eyebrow,
+.rail__card .eyebrow,
+.about-hero__copy .eyebrow,
+.site-foot .eyebrow {
+  color: #efeae2 !important;
+}
+
+.expect .eyebrow em,
+.detail .eyebrow em,
+.sv-detail .eyebrow em,
+.custom-cad--dark .eyebrow em,
+.bg-dark .eyebrow em,
+.service--dark .eyebrow em,
+.rail__card .eyebrow em,
+.about-hero__copy .eyebrow em,
+.site-foot .eyebrow em {
+  background: #c9b48a !important;
+}
+
 @keyframes spin{to{transform:rotate(360deg)}}
 @keyframes rise{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
 
