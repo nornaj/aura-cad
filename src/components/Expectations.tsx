@@ -37,7 +37,6 @@ const Expectations = () => {
       <div className="expect__showcase">
         <div className="showcase__body">
           <div className="featured" data-reveal="scale">
-            <div className="featured__orbit"></div>
             <img src="/gold-ring.webp" alt="Featured ring render" />
           </div>
 
