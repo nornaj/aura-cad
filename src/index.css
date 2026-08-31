@@ -44,7 +44,12 @@ a{color:inherit;text-decoration:none}
 .service--dark .eyebrow,
 .rail__card .eyebrow,
 .about-hero__copy .eyebrow,
-.site-foot .eyebrow {
+.site-foot .eyebrow,
+.request .eyebrow,
+.why .eyebrow,
+.cc-process .eyebrow,
+.cc-receive .eyebrow,
+.cc-cta__copy .eyebrow {
   color: #efeae2 !important;
 }
 
@@ -56,7 +61,12 @@ a{color:inherit;text-decoration:none}
 .service--dark .eyebrow em,
 .rail__card .eyebrow em,
 .about-hero__copy .eyebrow em,
-.site-foot .eyebrow em {
+.site-foot .eyebrow em,
+.request .eyebrow em,
+.why .eyebrow em,
+.cc-process .eyebrow em,
+.cc-receive .eyebrow em,
+.cc-cta__copy .eyebrow em {
   background: #c9b48a !important;
 }
 
