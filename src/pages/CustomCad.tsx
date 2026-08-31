@@ -395,7 +395,7 @@ const CustomCad = () => {
               <div className="cc-deliv__body">
                 <p>
                   .3DM for editing, .STL for printing, .OBJ for rendering
-                  &#8212; in one download, oriented and sprued on request.
+                  &#8212; in one delivery, oriented and sprued on request.
                 </p>
                 <span className="cc-deliv__pill">
                   .3DM &#183; .STL &#183; .OBJ
@@ -442,7 +442,7 @@ const CustomCad = () => {
               </div>
               <div className="cc-deliv__body">
                 <p>
-                  Cast and sell under your own brand without limits. Full commercial rights transfer on partner projects in writing.
+                  Cast and produce under your own brand without limits. Full IP transfer on partner projects in writing.
                 </p>
                 <span className="cc-deliv__pill">100% White-label</span>
               </div>
@@ -632,7 +632,7 @@ const CustomCad = () => {
                 <h3>Who owns the finished files?</h3>
               </div>
               <p>
-                Your brand owns 100% commercial rights &#8212; cast, scale, and sell without limits or per-unit fees.
+                Your brand owns 100% commercial rights &#8212; cast, scale, and produce without limits or per-unit fees.
               </p>
             </div>
 

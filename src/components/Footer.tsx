@@ -17,7 +17,7 @@ const Footer = () => {
           <b>Studio</b>
           <a href="#">Services</a>
           <a href="#">Behind the scenes</a>
-          <a href="#">Licensing</a>
+          <a href="#">Process</a>
           <a href="#">Contact</a>
         </div>
         <div className="site-foot__col">

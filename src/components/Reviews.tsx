@@ -24,7 +24,7 @@ const reviews = [
     initials: 'JW',
     name: 'James Whitmore',
     company: 'Whitmore & Sons, London',
-    quote: '\u201CWe switched from our in-house modeller to AURA\u2019s library. Turnaround dropped from two weeks to two hours.\u201D',
+    quote: '\u201CWe switched from our in-house modeller to AURA\u2019s studio. Turnaround dropped from two weeks to two hours.\u201D',
   },
   {
     initials: 'LC',
@@ -98,7 +98,7 @@ const Reviews = () => {
     <section className="reviews" ref={revealRef}>
 <div className="reviews__head">
         <h2 data-reveal="up">Trusted by<br />300+ jewellers</h2>
-        <div className="reviews__rating" data-reveal="up" data-reveal-delay="1">4.9 / 5 &#183; 412 verified orders</div>
+        <div className="reviews__rating" data-reveal="up" data-reveal-delay="1">4.9 / 5 &#183; 412 client reviews</div>
       </div>
 
       <div

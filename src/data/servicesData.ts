@@ -3,7 +3,6 @@ export interface ServiceDetail {
   num: string
   title: string
   lead: string
-  price: string
   img: string
   stats: { value: string; label: string }[]
   included: { num: string; title: string; desc: string }[]
@@ -17,7 +16,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     num: '01',
     title: 'Partnership',
     lead: 'Dedicated CAD design capacity, white-label collections, and priority turnaround for jewellery houses, studios, and independent makers worldwide.',
-    price: 'Dedicated Studio · Priority Queue',
     img: '/gold-ring.webp',
     stats: [
       { value: '24 h', label: 'Quote & agreement' },
@@ -34,10 +32,10 @@ export const servicesData: Record<string, ServiceDetail> = {
     steps: [
       { label: 'Step 01', title: 'Define the scope', desc: 'Share your collection brief or recurring monthly volume needs.' },
       { label: 'Step 02', title: 'Model & review', desc: '360° turntable renders sent at each iteration until fit is perfect.' },
-      { label: 'Step 03', title: 'Production delivery', desc: 'Resin-tested watertight solids shipped with full licence.', dark: true },
+      { label: 'Step 03', title: 'Production delivery', desc: 'Resin-tested watertight solids shipped with full documentation.', dark: true },
     ],
     faqs: [
-      { q: 'Who owns the finished files?', a: 'Your studio retains 100% commercial ownership. Cast, scale, and sell under your name without unit fees.' },
+      { q: 'Who owns the finished files?', a: 'Your studio retains 100% commercial ownership. Cast, scale, and produce under your name without unit fees.' },
       { q: 'Will you sign an NDA?', a: 'Always, on request before any confidential design or reference is shared.' },
       { q: 'What if a file fails casting?', a: 'If the failure traces to our geometry, we fix and re-test the file at zero cost.' },
     ],
@@ -47,7 +45,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     num: '02',
     title: 'Rings',
     lead: 'Solitaires, halos, eternity bands, and signets — engineered for correct metal thickness, stone seating, and size range scalability.',
-    price: 'Parametric Sizing · Watertight',
     img: '/gold-ring.webp',
     stats: [
       { value: 'US 4–12', label: 'Parametric scale' },
@@ -77,7 +74,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     num: '03',
     title: 'Zbrush Sculpting',
     lead: 'Organic bas-reliefs, heraldry, anatomical motifs, and complex freeform textures crafted with high-density digital sculpting.',
-    price: 'High-poly Mesh · STL / OBJ',
     img: '/gold-ring.webp',
     stats: [
       { value: 'High-Poly', label: 'Watertight mesh' },
@@ -107,7 +103,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     num: '04',
     title: 'Render',
     lead: 'Studio-lit 4K photoreal stills, 360° turntable animations, and material showcases for ecommerce, portfolios, and client pitch decks.',
-    price: '4K Ultra HD · 360° Turntable',
     img: '/gold-ring.webp',
     stats: [
       { value: '4K', label: 'Ultra HD Stills' },
@@ -137,7 +132,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     num: '05',
     title: 'Pendants',
     lead: 'Medallions, bezel-set drops, and complex locket assemblies designed with balanced bail placement and optimal weight distribution.',
-    price: 'Bail Integrated · Castable',
     img: '/gold-ring.webp',
     stats: [
       { value: 'Balanced', label: 'Center of gravity' },
@@ -167,7 +161,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     num: '06',
     title: 'Grillz',
     lead: 'Custom dental caps, open-face frames, and iced pavé grillz authored directly from intraoral 3D scans for an anatomical fit.',
-    price: '3D Scan Compatible · Dental CAD',
     img: '/gold-ring.webp',
     stats: [
       { value: 'Scan Fit', label: 'Intraoral 3D mesh' },
@@ -197,7 +190,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     num: '07',
     title: 'Watches',
     lead: 'Case architecture, bezel assemblies, dial indices, and custom link bracelets authored for Swiss-standard mechanical tolerances.',
-    price: 'Case & Bezel Geometry',
     img: '/gold-ring.webp',
     stats: [
       { value: 'Swiss Spec', label: 'Gasket tolerances' },
@@ -227,7 +219,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     num: '08',
     title: 'Earrings',
     lead: 'Hoops, huggies, studs, and drop earrings calculated with hollowed weight reduction and secure post or clasp geometry.',
-    price: 'Hollow Weight Balance',
     img: '/gold-ring.webp',
     stats: [
       { value: 'Hollowed', label: 'Comfort weight' },
@@ -257,7 +248,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     num: '09',
     title: 'Bracelets',
     lead: 'Tennis bracelets, hinged cuffs, and articulated link assemblies featuring concealed clasps and fluid movement joints.',
-    price: 'Articulated Links · Hidden Clasp',
     img: '/gold-ring.webp',
     stats: [
       { value: 'Articulated', label: 'Fluid links' },
@@ -287,7 +277,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     num: '10',
     title: 'Eyewear',
     lead: 'Precious metal frames, temple hinges, bridge components, and rimless mountings crafted for ergonomic luxury and structural strength.',
-    price: 'Ergonomic Frames · Metal CAD',
     img: '/gold-ring.webp',
     stats: [
       { value: 'Ergonomic', label: 'Face fit' },
@@ -317,7 +306,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     num: '11',
     title: 'Necklaces',
     lead: 'Statement collars, chain links, and multi-component gemstone strands authored with seamless flexibility and custom catches.',
-    price: 'Flexible Links · Custom Catches',
     img: '/gold-ring.webp',
     stats: [
       { value: 'Flex-Link', label: 'Collar curve' },
@@ -347,7 +335,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     num: '12',
     title: 'Product Design',
     lead: 'Luxury accessories, cufflinks, money clips, perfume hardware, and bespoke objets d’art authored from initial concept to tooling.',
-    price: 'Concept to Production Tooling',
     img: '/gold-ring.webp',
     stats: [
       { value: 'Tooling', label: 'CNC / Casting' },

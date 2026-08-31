@@ -28,7 +28,7 @@ const Hero = () => {
           {/* Left column – Intro */}
           <div className="intro">
             <div className="intro__kicker">
-              Collection<br />2026
+              Studio<br />2026
             </div>
             <p className="intro__copy">
               Production-ready 3D jewellery models — parametric, print-tested,
@@ -37,9 +37,9 @@ const Hero = () => {
             </p>
             <div className="intro__cta">
               <a href="#" className="btn">
-                Browse models <span>&#8594;</span>
+                View our work <span>&#8594;</span>
               </a>
-              <div className="intro__note">1 240+ files &#183; instant download</div>
+              <div className="intro__note">300+ projects completed</div>
             </div>
           </div>
 

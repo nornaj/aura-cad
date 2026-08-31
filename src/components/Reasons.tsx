@@ -33,15 +33,15 @@ const reasonsData = [
     num: '05',
     title: 'Formats for every bench',
     description:
-      '.STL, .3DM and .OBJ in one download, print-oriented and sprued on request.',
-    pill: '3 formats, one download',
+      '.STL, .3DM and .OBJ in one delivery, print-oriented and sprued on request.',
+    pill: '3 formats, one delivery',
   },
   {
     num: '06',
     title: 'Rights settled up front',
     description:
-      'Commercial licence on every file, exclusive transfer on white-label work — no ambiguity in your paperwork.',
-    pill: 'Commercial licence',
+      'Full IP transfer on every project, exclusive rights on white-label work — no ambiguity in your paperwork.',
+    pill: 'Full IP transfer',
   },
 ]
 

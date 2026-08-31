@@ -16,8 +16,8 @@ const WhyUs = () => {
           <h2 data-reveal="up" data-reveal-delay="1">Geometry you<br />can cast blind</h2>
         </div>
         <p className="why__intro" data-reveal="up" data-reveal-delay="2">
-          Twelve years of CAD for jewellery houses, condensed into a library and
-          a studio that hand you working files &#8212; not renders with problems
+          Twelve years of CAD for jewellery houses, condensed into a studio and
+          a workflow that hand you working files &#8212; not renders with problems
           hidden inside.
         </p>
       </div>
@@ -59,7 +59,7 @@ const WhyUs = () => {
             <span className="why-card__label">03 &#183; Proven</span>
             <h3>Printed before it ships</h3>
             <p>
-              Each design is resin-tested at 0.02 mm, so what you download
+              Each design is resin-tested at 0.02 mm, so what you receive
               already exists.
             </p>
           </div>

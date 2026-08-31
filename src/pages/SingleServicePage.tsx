@@ -54,7 +54,6 @@ const SingleServicePage: React.FC = () => {
                 <Link to="/contact" className="sv-btn-dark">
                   Start a brief <span>&#8594;</span>
                 </Link>
-                <span className="sv-hero__price">{service.price}</span>
               </div>
             </div>
 
