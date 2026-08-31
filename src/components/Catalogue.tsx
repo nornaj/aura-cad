@@ -63,11 +63,6 @@ const Catalogue = () => {
             <div className="model__media">
               <img src={m.img} alt={m.alt} />
             </div>
-            <div className="model__body">
-              <div className="model__row">
-                <h3>{m.name}</h3>
-              </div>
-            </div>
           </a>
         ))}
       </div>

@@ -40,11 +40,6 @@ const CataloguePage = () => {
         {projects.map((item) => (
           <a href="#" className="cat-model" key={item.name}>
             <div className="cat-model__media"></div>
-            <div className="cat-model__body">
-              <div className="cat-model__row">
-                <h3>{item.name}</h3>
-              </div>
-            </div>
           </a>
         ))}
       </div>
