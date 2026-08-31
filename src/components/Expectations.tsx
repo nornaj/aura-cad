@@ -35,8 +35,6 @@ const Expectations = () => {
 
       {/* ── RIGHT: Showcase column ── */}
       <div className="expect__showcase">
-        <div className="ghost-word">Rings</div>
-
         <div className="showcase__body">
           <div className="featured" data-reveal="scale">
             <div className="featured__orbit"></div>
