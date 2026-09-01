@@ -35,7 +35,7 @@ function App() {
       <Reviews />
       <WhyUs />
       <BehindTheScenes />
-      <Team showEyebrow={false} />
+      <Team showEyebrow={false} compact />
       <Catalogue />
       <CustomRequest />
     </>

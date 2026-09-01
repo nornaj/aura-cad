@@ -32,12 +32,11 @@ const membersData = [
   },
 ]
 
-const Team = ({ showEyebrow = true }: { showEyebrow?: boolean }) => {
+const Team = ({ showEyebrow = true, compact = false }: { showEyebrow?: boolean; compact?: boolean }) => {
   const ref = useScrollReveal()
 
   return (
-    <section className="team" ref={ref}>
-      <div className="team__head">
+    <section className={`team${compact ? ' team--compact' : ''}`} ref={ref}>      <div className="team__head">
         <div className="team__headline">
           {showEyebrow && (
             <div className="eyebrow" data-reveal="up">
