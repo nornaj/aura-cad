@@ -35,7 +35,6 @@ const Header = () => {
   const [megaOpen, setMegaOpen] = useState(false)
   const isLight = darkPages.includes(pathname)
   const megaTimeout = useRef<ReturnType<typeof setTimeout> | null>(null)
-  const megaRef = useRef<HTMLDivElement>(null)
 
   // Close menu on route change
   useEffect(() => {
@@ -55,7 +54,7 @@ const Header = () => {
   }, [])
 
   const closeMega = useCallback(() => {
-    megaTimeout.current = setTimeout(() => setMegaOpen(false), 200)
+    megaTimeout.current = setTimeout(() => setMegaOpen(false), 220)
   }, [])
 
   // Close megamenu on scroll
@@ -72,40 +71,77 @@ const Header = () => {
   ].filter(Boolean).join(' ')
 
   return (
-    <header className={classes}>
-      {/* Desktop pill nav */}
-      <nav className="pill-nav pill-nav--desktop">
-        {navItems.map((item) => {
-          if (item.label === 'Services') {
-            return (
-              <span
-                key="services"
-                className={`pill-nav__services${megaOpen ? ' is-active' : ''}`}
-                onMouseEnter={openMega}
-                onMouseLeave={closeMega}
-              >
-                Services
-                <svg width="8" height="5" viewBox="0 0 8 5" fill="none" style={{ marginLeft: 4, transition: 'transform .25s', transform: megaOpen ? 'rotate(180deg)' : 'rotate(0)' }}>
-                  <path d="M1 1l3 3 3-3" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
+    <>
+      <header className={classes}>
+        {/* Desktop pill nav */}
+        <nav className="pill-nav pill-nav--desktop">
+          {navItems.map((item) => {
+            if (item.label === 'Services') {
+              return (
+                <span
+                  key="services"
+                  className={`pill-nav__services${megaOpen ? ' is-active' : ''}`}
+                  onMouseEnter={openMega}
+                  onMouseLeave={closeMega}
+                >
+                  Services
+                  <svg width="8" height="5" viewBox="0 0 8 5" fill="none" style={{ marginLeft: 5, transition: 'transform .25s', transform: megaOpen ? 'rotate(180deg)' : 'rotate(0)' }}>
+                    <path d="M1 1l3 3 3-3" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </span>
+              )
+            }
+            return item.path === pathname ? (
+              <span key={item.path} className="is-active">
+                {item.label}
               </span>
+            ) : (
+              <Link key={item.path} to={item.path}>
+                {item.label}
+              </Link>
             )
-          }
-          return item.path === pathname ? (
-            <span key={item.path} className="is-active">
-              {item.label}
-            </span>
-          ) : (
-            <Link key={item.path} to={item.path}>
-              {item.label}
-            </Link>
-          )
-        })}
-      </nav>
+          })}
+        </nav>
 
-      {/* ── MEGAMENU ── */}
+        {/* Mobile hamburger */}
+        <button
+          className="burger"
+          onClick={() => setOpen((v) => !v)}
+          aria-label={open ? 'Close menu' : 'Open menu'}
+          aria-expanded={open}
+        >
+          <span className="burger__line"></span>
+          <span className="burger__line"></span>
+          <span className="burger__line"></span>
+        </button>
+
+        {/* Mobile overlay menu */}
+        <div className="mobile-menu">
+          <nav className="mobile-menu__nav">
+            {navItems.map((item) =>
+              item.path === pathname ? (
+                <span key={item.path} className="is-active">
+                  {item.label}
+                </span>
+              ) : item.label === 'Services' ? (
+                <Link key="services-mobile" to="/" state={{ scrollTo: 'services' }}>
+                  Services
+                </Link>
+              ) : (
+                <Link key={item.path} to={item.path}>
+                  {item.label}
+                </Link>
+              )
+            )}
+          </nav>
+          <div className="mobile-menu__footer">
+            <span>hello@aura.cad</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ── MEGAMENU (outside header to avoid pointer-events:none) ── */}
       <div
-        ref={megaRef}
         className={`mega${megaOpen ? ' mega--open' : ''}`}
         onMouseEnter={openMega}
         onMouseLeave={closeMega}
@@ -116,13 +152,13 @@ const Header = () => {
               <em></em>
               <span>Our services</span>
             </div>
-            <Link to="/contact" className="mega__cta">
+            <Link to="/contact" className="mega__cta" onClick={() => setMegaOpen(false)}>
               Start a project <span>&#8594;</span>
             </Link>
           </div>
           <div className="mega__grid">
             {megaServices.map((s) => (
-              <Link key={s.num} to={s.link} className="mega__card">
+              <Link key={s.num} to={s.link} className="mega__card" onClick={() => setMegaOpen(false)}>
                 <span className="mega__num">{s.num}</span>
                 <h4>{s.title}</h4>
                 <p>{s.desc}</p>
@@ -133,44 +169,11 @@ const Header = () => {
       </div>
 
       {/* Backdrop */}
-      {megaOpen && <div className="mega__backdrop" onClick={() => setMegaOpen(false)} />}
-
-      {/* Mobile hamburger */}
-      <button
-        className="burger"
-        onClick={() => setOpen((v) => !v)}
-        aria-label={open ? 'Close menu' : 'Open menu'}
-        aria-expanded={open}
-      >
-        <span className="burger__line"></span>
-        <span className="burger__line"></span>
-        <span className="burger__line"></span>
-      </button>
-
-      {/* Mobile overlay menu */}
-      <div className="mobile-menu">
-        <nav className="mobile-menu__nav">
-          {navItems.map((item) =>
-            item.path === pathname ? (
-              <span key={item.path} className="is-active">
-                {item.label}
-              </span>
-            ) : item.label === 'Services' ? (
-              <Link key="services-mobile" to="/" state={{ scrollTo: 'services' }}>
-                Services
-              </Link>
-            ) : (
-              <Link key={item.path} to={item.path}>
-                {item.label}
-              </Link>
-            )
-          )}
-        </nav>
-        <div className="mobile-menu__footer">
-          <span>hello@aura.cad</span>
-        </div>
-      </div>
-    </header>
+      <div
+        className={`mega__backdrop${megaOpen ? ' mega__backdrop--visible' : ''}`}
+        onClick={() => setMegaOpen(false)}
+      />
+    </>
   )
 }
 
