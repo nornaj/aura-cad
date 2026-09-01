@@ -6,6 +6,7 @@ import Services from './components/Services'
 import Reviews from './components/Reviews'
 import WhyUs from './components/WhyUs'
 import BehindTheScenes from './components/BehindTheScenes'
+import Team from './components/Team'
 import Catalogue from './components/Catalogue'
 import CustomRequest from './components/CustomRequest'
 
@@ -34,6 +35,7 @@ function App() {
       <Reviews />
       <WhyUs />
       <BehindTheScenes />
+      <Team showEyebrow={false} />
       <Catalogue />
       <CustomRequest />
     </>
