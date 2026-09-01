@@ -35,6 +35,8 @@ const Expectations = () => {
 
       {/* ── RIGHT: Showcase column ── */}
       <div className="expect__showcase">
+        <div className="ghost-word">Rings</div>
+
         <div className="showcase__body">
           <div className="featured" data-reveal="scale">
             <img src="/gold-ring.webp" alt="Featured ring render" />
