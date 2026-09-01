@@ -249,7 +249,7 @@ a{color:inherit;text-decoration:none}
 
 .mega__head{
   display:flex;align-items:center;justify-content:space-between;
-  max-width:1280px;margin:0 auto 24px;
+  max-width:1440px;margin:0 auto 24px;
   padding-bottom:18px;
   border-bottom:1px solid rgba(42,38,32,.08);
 }
@@ -276,39 +276,40 @@ a{color:inherit;text-decoration:none}
   display:grid;
   grid-template-columns:repeat(4,1fr);
   gap:10px;
-  max-width:1280px;margin:0 auto;
+  max-width:1440px;margin:0 auto;
 }
 
 .mega__card{
   display:flex;flex-direction:column;gap:8px;
   padding:16px 18px;
-  border:1px solid rgba(42,38,32,.07);
+  background:#1b1815;
+  border:1px solid rgba(239,234,226,.06);
   border-radius:14px;
-  text-decoration:none;color:inherit;
+  text-decoration:none;color:#efeae2;
   transition:border-color .25s, background .25s, box-shadow .25s, transform .2s;
 }
 .mega__card:hover{
-  border-color:rgba(42,38,32,.16);
-  background:rgba(42,38,32,.018);
-  box-shadow:0 4px 20px rgba(42,38,32,.05);
+  border-color:rgba(239,234,226,.14);
+  background:#22201c;
+  box-shadow:0 6px 24px rgba(0,0,0,.18);
   transform:translateY(-2px);
 }
 
 .mega__num{
   font-family:'Inter',sans-serif;font-size:9px;font-weight:600;
   letter-spacing:.18em;text-transform:uppercase;
-  color:rgba(42,38,32,.28);
+  color:rgba(239,234,226,.3);
 }
 .mega__card h4{
   margin:0;
   font-family:'Bebas Neue',sans-serif;font-weight:600;
   font-size:18px;line-height:1.1;letter-spacing:.01em;
-  color:#1b1815;
+  color:#fffdfa;
 }
 .mega__card p{
   margin:0;
   font-family:'Inter',sans-serif;font-size:11px;line-height:1.5;
-  color:rgba(42,38,32,.45);
+  color:rgba(239,234,226,.5);
 }
 
 .mega__backdrop{
